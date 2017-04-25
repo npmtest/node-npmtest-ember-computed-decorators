@@ -1,6 +1,6 @@
 # npmtest-ember-computed-decorators
 
-#### basic test coverage for  ember-computed-decorators (v0.3.0)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-computed-decorators.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-computed-decorators) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-computed-decorators.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-computed-decorators)
+#### basic test coverage for  [ember-computed-decorators (v0.3.0)](https://github.com/rwjblue/ember-computed-decorators#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-computed-decorators.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-computed-decorators) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-computed-decorators.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-computed-decorators)
 
 #### The default blueprint for ember-cli addons.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ember-computed-decorators/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ember-computed-decorators/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ember-computed-decorators/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ember-computed-decorators/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-computed-decorators/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-computed-decorators/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ember-computed-decorators/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ember-computed-decorators/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-computed-decorators/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-computed-decorators/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ember-computed-decorators/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ember-computed-decorators/build/coverage.html/index.html)
 
@@ -35,31 +35,17 @@
 ```json
 
 {
-    "name": "ember-computed-decorators",
-    "version": "0.3.0",
-    "description": "The default blueprint for ember-cli addons.",
-    "keywords": [
-        "ember-addon"
-    ],
-    "license": "MIT",
-    "author": "Robert Jackson <me@rwjblue.com>",
-    "directories": {
-        "doc": "doc",
-        "test": "tests"
+    "author": {
+        "name": "Robert Jackson"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/rwjblue/ember-computed-decorators.git"
-    },
-    "scripts": {
-        "build": "ember build",
-        "start": "ember server",
-        "test": "ember try:each"
+    "bugs": {
+        "url": "https://github.com/rwjblue/ember-computed-decorators/issues"
     },
     "dependencies": {
         "ember-cli-babel": "^5.1.7",
         "ember-macro-helpers": "0.6.1"
     },
+    "description": "The default blueprint for ember-cli addons.",
     "devDependencies": {
         "broccoli-asset-rev": "^2.4.5",
         "ember-cli": "2.10.0",
@@ -81,12 +67,47 @@
         "ember-resolver": "^2.0.3",
         "loader.js": "^4.0.10"
     },
-    "engines": {
-        "node": ">= 0.12.0"
+    "directories": {
+        "doc": "doc",
+        "test": "tests"
+    },
+    "dist": {
+        "shasum": "42348ae214f464d266a85101e31e67e50bbbd39f",
+        "tarball": "https://registry.npmjs.org/ember-computed-decorators/-/ember-computed-decorators-0.3.0.tgz"
     },
     "ember-addon": {
         "configPath": "tests/dummy/config"
-    }
+    },
+    "engines": {
+        "node": ">= 0.12.0"
+    },
+    "gitHead": "0afd693032a0d014925224dcea47e67dd209f3ff",
+    "homepage": "https://github.com/rwjblue/ember-computed-decorators#readme",
+    "keywords": [
+        "ember-addon"
+    ],
+    "license": "MIT",
+    "maintainers": [
+        {
+            "name": "kellyselden"
+        },
+        {
+            "name": "rwjblue"
+        }
+    ],
+    "name": "ember-computed-decorators",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rwjblue/ember-computed-decorators.git"
+    },
+    "scripts": {
+        "build": "ember build",
+        "start": "ember server",
+        "test": "ember try:each"
+    },
+    "version": "0.3.0",
+    "bin": {}
 }
 ```
 
